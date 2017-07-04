@@ -1,0 +1,24 @@
+body{
+	background: #333;
+	overflow: hidden;
+	text-align: center;
+
+	button{
+	 	border: none;
+	 	outline: none;
+		background: #3452ff;
+		color: white;
+		padding: .5em 1em;
+		font-size: 	2em;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		margin-left: 1em;
+	}
+
+	h1{
+		color:white;
+		font-size: 150px;
+	}
+
+}
