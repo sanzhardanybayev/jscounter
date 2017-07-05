@@ -1,24 +1,41 @@
-body{
-	background: #333;
-	overflow: hidden;
-	text-align: center;
+html{
+	font-family: 'Forum', cursive;
 
-	button{
-	 	border: none;
-	 	outline: none;
-		background: #3452ff;
-		color: white;
-		padding: .5em 1em;
-		font-size: 	2em;
-		width: 150px;
-		height: 150px;
-		border-radius: 50%;
-		margin-left: 1em;
-	}
+	body{
+		background-image: url(/img/digital_art-18418.png);
+		background-size: 100%;
+		overflow: hidden;
+		text-align: center;
 
-	h1{
-		color:white;
-		font-size: 150px;
-	}
 
+		button{
+		 	border: white dotted;
+			outline: none;
+			background: black;
+			color: white;
+			padding: .5em 1em;
+			font-size: 45px;
+			width: 150px;
+			height: 150px;
+			border-radius: 30%;
+			margin-left: 1em;
+
+		   &:focus{
+				background: white;
+				color: black;
+				border: black dotted;
+
+		   }
+
+	    }
+
+		h1{
+			border: white 0.5px dotted;
+			box-shadow: inset 0 0 30px white;
+			color:white;
+			font-size: 150px;
+		}
+			
+    }
 }
+
